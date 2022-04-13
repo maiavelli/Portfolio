@@ -1,2 +1,2 @@
 # Portfolio
-A portfolio of work samples 
+a portfolio of work samples 
