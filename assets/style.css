@@ -26,8 +26,13 @@ h1 > span {
     font-size: 60px;
 }
 
-h2 > span {
+h2 > .span-pink {
     color: #fa9fd1;
+    font-size: 40px;
+}
+
+h2 > .span-white {
+    color: white;
     font-size: 40px;
 }
 
@@ -76,8 +81,6 @@ nav {
     justify-content: space-between;
 }
 
-
-
 nav>ul {
     display: flex;
     flex-direction: row;
@@ -122,16 +125,34 @@ nav>ul {
 .images > a {
     position: relative;
     text-align: center;
-    color: white;
+
 }
 
 .cssphoto {
-    flex: 0 0 100%;
+    flex: 0 0 90%;
+    background-image: url("./cssphoto.jpg");
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+    padding: 15em;
 }
 
-.cssphoto>img {
-    height: 500px;
+.cssphoto > span {
+    background-color: #fa9fd1;
+    color: white;
+    padding: 1em;
+    font-size: 25px;
 }
+
+.cssphoto:hover {
+    box-shadow:inset 0px 0px 20px
+    #fec2e3, 0 0 30px #fec2e3;
+}
+
+.cssphoto > span:hover {
+    color: black;
+}
+
+
 .placeholder {
     flex: 1 1 50%;
 }
