@@ -119,13 +119,12 @@ nav>ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .images > a {
     position: relative;
     text-align: center;
-
 }
 
 .cssphoto {
@@ -152,10 +151,31 @@ nav>ul {
     color: black;
 }
 
-
 .placeholder {
     flex: 1 1 50%;
+    background-image: url("./placeholder.png");
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 100%;
+    padding: 10em;
 }
+
+.placeholder:hover {
+    box-shadow:inset 0px 0px 20px
+    #fec2e3, 0 0 30px #fec2e3;
+}
+
+.placeholder > span {
+    background-color: #fa9fd1;
+    color: white;
+    padding: 1em;
+    font-size: 20px;
+}
+
+.placeholder > span:hover {
+    color: black;
+}
+
 
 /* CONTACT ME SECTION */
 
