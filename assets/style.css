@@ -128,7 +128,7 @@ nav>ul {
 }
 
 .cssphoto {
-    flex: 0 0 90%;
+    flex: 0 0 100%;
     background-image: url("./cssphoto.jpg");
     background-color: white;
     transition: all 0.5s ease-in-out;
@@ -153,7 +153,7 @@ nav>ul {
 
 .placeholder {
     flex: 1 1 50%;
-    background-image: url("./placeholder.png");
+    background-image: url("./placeholder2.png");
     background-repeat: no-repeat;
     background-color: white;
     background-size: 100%;
@@ -184,13 +184,67 @@ nav>ul {
     height: 20em;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    align-items: space-evenly;
 }
 
 #contact-me > h2 {
     flex: 0 0 30%;
 }
 
-#contact-me> h2 {
+
+section > ul {
     flex: 0 0 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    gap: 1em;
+    font-size: 20px;
+    padding: 1em;
+}
+
+/* MEDIA QUERIES */
+
+
+
+@media screen and (max-width: 996px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .hero {
+        align-items: center;
+        justify-items: center;
+    }
+
+    .images {
+        flex-direction: column;
+    }
+
+    .nav > ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .hero > span {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        height: 20em;
+    }
+    .hero > img {
+        display: none;
+    }
+    .card {
+        flex-direction: column;
+    }
+    .images {
+        flex-direction: column;
+    }
+
 }
 
