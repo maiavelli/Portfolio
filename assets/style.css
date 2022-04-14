@@ -60,7 +60,6 @@ ul {
 .hero {
     height: 300px;
     border: 10px solid #fec2e3;
-    background-color: #fef3ff;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -110,8 +109,14 @@ nav>ul {
 
 #about-me {
     height: 40em;
-    text-align: center;   
+    font-size: 20px;
+    padding: 2em; 
 }
+
+#about-me > section {
+    text-align: left;
+}
+
 
 
 /* MY WORK SECTION */
@@ -120,10 +125,6 @@ nav>ul {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
-
-.images > a {
-    position: relative;
     text-align: center;
 }
 
@@ -202,6 +203,7 @@ section > ul {
     gap: 1em;
     font-size: 20px;
     padding: 1em;
+    text-transform: lowercase;
 }
 
 /* MEDIA QUERIES */
@@ -209,7 +211,8 @@ section > ul {
 
 
 @media screen and (max-width: 996px) {
-    .card {
+    .card, 
+    .images {
         flex-direction: column;
     }
 
@@ -218,15 +221,12 @@ section > ul {
         justify-items: center;
     }
 
-    .images {
-        flex-direction: column;
-    }
-
     .nav > ul {
         display: flex;
         flex-direction: row;
         align-items: center;
     }
+
     .hero > span {
         display: none;
     }
@@ -236,15 +236,17 @@ section > ul {
     .hero {
         height: 20em;
     }
-    .hero > img {
-        display: none;
-    }
-    .card {
-        flex-direction: column;
-    }
-    .images {
+
+    #contact-me {
         flex-direction: column;
     }
 
+    #my-work > h2,
+    #contact-me > h2 {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
 }
+
+
 
