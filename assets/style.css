@@ -80,7 +80,7 @@ nav {
     justify-content: space-between;
 }
 
-nav>ul {
+nav > ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -218,17 +218,16 @@ section > ul {
 
     .hero {
         align-items: center;
-        justify-items: center;
-    }
-
-    .nav > ul {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+        justify-content: center;
     }
 
     .hero > span {
         display: none;
+    }
+
+    #my-work > h2 {
+        padding-top: 1em;
+        padding-bottom: 1em;
     }
 }
 
@@ -241,11 +240,18 @@ section > ul {
         flex-direction: column;
     }
 
-    #my-work > h2,
+
     #contact-me > h2 {
         padding-top: 1em;
         padding-bottom: 1em;
     }
+
+    nav {
+        align-items: flex-end;
+        justify-content: center;
+        padding: 2px;
+    }
+
 }
 
 
