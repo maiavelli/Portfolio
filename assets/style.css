@@ -128,6 +128,16 @@ nav > ul {
     text-align: center;
 }
 
+.cssphoto > span {
+    display: inline-block;
+    width: max-content;
+}
+
+.placeholder > span {
+    display: inline-block;
+    width: max-content;
+}
+
 .cssphoto {
     flex: 0 0 100%;
     background-image: url("./cssphoto.jpg");
@@ -238,6 +248,11 @@ section > ul {
 
     #contact-me {
         flex-direction: column;
+      
+    }
+
+    section > ul {
+        flex-wrap: wrap;
     }
 
 
@@ -251,7 +266,6 @@ section > ul {
         justify-content: center;
         padding: 2px;
     }
-
 }
 
 
