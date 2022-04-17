@@ -108,7 +108,7 @@ nav > ul {
 }
 
 #about-me {
-    height: 40em;
+    height: 20em;
     font-size: 20px;
     padding: 2em; 
 }
@@ -248,7 +248,6 @@ section > ul {
 
     #contact-me {
         flex-direction: column;
-      
     }
 
     section > ul {
