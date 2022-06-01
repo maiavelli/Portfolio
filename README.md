@@ -11,4 +11,7 @@ A portfolio of work samples that is meant to grow and be added to as I learn cod
 This page is purely for my own professional and acadadmic usage, as a working portfolio. 
 
 ## Screenshot of Deployed Application
-   ![portfolio screenshot](./assets/demogif.gif) 
+![portfolio screenshot](./assets/images/portfolio.gif) 
+
+## Link to Deployed Application
+https://maiavelli.github.io/portfolio/
