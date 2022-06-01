@@ -140,7 +140,7 @@ nav > ul {
 
 .cssphoto {
     flex: 0 0 100%;
-    background-image: url("./cssphoto.jpg");
+    background-image: url("./images/cssphoto.jpg");
     background-color: white;
     transition: all 0.5s ease-in-out;
     padding: 15em;
@@ -162,14 +162,63 @@ nav > ul {
     color: black;
 }
 
+.artphoto {
+    flex: 0 0 100%;
+    background-image: url("./images/artinstitute.jpeg");
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+    padding: 15em;
+}
+
+.artphoto > span {
+    background-color: #fa9fd1;
+    color: white;
+    padding: 1em;
+    font-size: 25px;
+}
+
+.artphoto:hover {
+    box-shadow:inset 0px 0px 20px
+    #fec2e3, 0 0 30px #fec2e3;
+}
+
+.artphoto > span:hover {
+    color: black;
+}
+.weatherphoto {
+    flex: 0 0 100%;
+    background-image: url("./images/pinkclouds.jpeg");
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+    padding: 15em;
+}
+
+.weatherphoto > span {
+    background-color: #fa9fd1;
+    color: white;
+    padding: 1em;
+    font-size: 25px;
+}
+
+.weatherphoto:hover {
+    box-shadow:inset 0px 0px 20px
+    #fec2e3, 0 0 30px #fec2e3;
+}
+
+.weatherphoto > span:hover {
+    color: black;
+}
+
+
 .placeholder {
     flex: 1 1 50%;
-    background-image: url("./placeholder2.png");
+    background-image: url("./images/placeholder2.png");
     background-repeat: no-repeat;
     background-color: white;
     background-size: 100%;
     padding: 10em;
 }
+
 
 .placeholder:hover {
     box-shadow:inset 0px 0px 20px
@@ -186,6 +235,8 @@ nav > ul {
 .placeholder > span:hover {
     color: black;
 }
+
+
 
 
 /* CONTACT ME SECTION */
